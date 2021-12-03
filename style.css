@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;700&display=swap");
+
+:root {
+  --body-bg-color: #121214;
+  --text-color: #e1e1e6;
+  --title-color: #04d361;
+  --form-color: #a8a8a8;
+  --bg-button-color: #8257e5;
+}
+
+* {
+  font-family: "Spartan", Work Sans;
+  font-weight: 400, 500, 700;
+}
+
+html {
+  background: url("/assets/read_news.jpg") no-repeat, fixed;
+  background-size: cover;
+}
+
+body {
+  width: 40%;
+  height: 100vh;
+  line-height: 25px;
+  margin: 0;
+  padding: 15px 15px;
+  background-color: var(--body-bg-color);
+}
+
+body img {
+  width: 400px;
+}
+
+body h2 {
+  padding-top: 130px;
+  text-align: left;
+  color: var(--title-color);
+  font-size: 20px;
+}
+
+body h3 {
+  color: var(--text-color);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+body h4,
+label {
+  color: var(--text-color);
+  font-size: 12px;
+  font-weight: 400;
+}
+
+button {
+  background-color: var(--bg-button-color);
+  padding: 0;
+  margin: 0;
+  border-width: 0px;
+  float: right;
+  width: 60px;
+}
+
+form {
+  display: flex;
+  width: 50%;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-direction: row;
+  height: 50px;
+  box-shadow: 13px 14px 50px var(--body-bg-color);
+}
+
+form input {
+  width: 94%;
+  padding-left: 10px;
+  border: 0;
+  background-color: var(--text-color);
+}
+
+form button img {
+  height: 30px;
+  width: 30px;
+}
+
+.green {
+  width: 5px;
+  background-color: var(--title-color);
+}
+
+.ler {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 80px;
+  text-align: center;
+}
+
+.ler h3 {
+  color: var(--bg-button-color);
+}
+.ler img {
+  width: 50px;
+  height: 50px;
+}
